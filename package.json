@@ -8,6 +8,11 @@
   },
   "author": "Imre",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imrevaczi/gulptest.git"
+  },
+  "keywords": ["gulp"],
   "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.1",
