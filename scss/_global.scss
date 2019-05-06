@@ -1,0 +1,58 @@
+body {
+    color: $text-body;
+    font-family: 'PT serif', serif ;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: $text-title;
+    a {color: $ui-link;}
+}
+
+h1 {font-weight: 900; font-size: 22px}
+h2 {font-weight: 700; font-size: 24px}
+h3 {font-weight: 600; font-size: 20px}
+h4 {font-weight: normal; font-size: 20px}
+h5 {font-weight: bold; font-size: 15px}
+h6 {font-weight: normal; font-size: 15px}
+
+@media (min-width: 768px) {
+    h1 {font-size: 30px}
+    h2 {font-size: 28px}
+    h3 {font-size: 26px}
+    h4 {font-size: 24px}
+    h5 {font-size: 23px}
+    h6 {font-size: 22px}
+}
+
+a {text-decoration: none ;
+    color: $ui-link ;
+    &:hover {
+       text-decoration: underline ;
+       color: red ;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color: $ui-link ;
+        &:hover {color: red ;}
+    }
+}
+
+.no-bold {font-weight: normal;}
+.container {padding-left: 50px; padding-right: 50px;
+           &.wrap {
+               padding-left: 0px; padding-right: 0px;
+           }
+}
+
+//Karok háttere
+
+.bg-kar-AOK {background-color: $AOK-normal;} 
+.bg-kar-GYTK {background-color: $GYTK-normal;}
+.bg-kar-FOK {background-color: $FOK-normal;}
+.bg-kar-ETK {background-color: $ETK-normal;}
+.bg-kar-EKK {background-color: $EKK-normal;}
+.bg-kar-PAK {background-color: $PAK-normal;}
+.bg-kar-PHD {background-color: $PHD-normal;}
+
+
+
