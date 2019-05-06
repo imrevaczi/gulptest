@@ -12,11 +12,14 @@
         "type": "git",
         "url": "git+https://github.com/imrevaczi/gulptest.git"
     },
-    "keywords": ["gulp"],
+    "keywords": [
+        "gulp"
+    ],
     "dependencies": {},
     "devDependencies": {
         "gulp": "^3.9.1",
         "gulp-concat": "^2.6.1",
+        "gulp-cssnano": "^2.1.3",
         "gulp-jshint": "^2.1.0",
         "gulp-rename": "^1.2.2",
         "gulp-sass": "^3.1.0",
@@ -24,7 +27,7 @@
         "jshint": "^2.9.5"
     },
     "bugs": {
-        "url": "https://github.com/imrevaczi/gulptest.git/issues" 
+        "url": "https://github.com/imrevaczi/gulptest.git/issues"
     },
     "homepage": "https://github.com/imrevaczi/gulptest.git#readme"
 }
